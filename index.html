@@ -43,15 +43,7 @@
 
             var HostName = document.location.hostname.toLowerCase();
 
-            // 1. بررسی دامنه و هدایت ترافیک
-            if (HostName.indexOf("fereidunian.github.io") < 0) {
-                document.location = "about:blank";
-                try {
-                    top.location.href = "https://www.rtl-theme.com/?p=90520&aff=barat";
-                } catch (e) {
-                    // اگر در iframe باشد و دسترسی نداشته باشد، کاری انجام نمی‌شود
-                }
-            }
+
 
             // 2. توابع کمکی برای غیرفعال کردن رویدادها
             function girc(evt) {
@@ -232,4 +224,5 @@
     <script src="js/bars.js"></script>
     <script src="js/functions.js"></script>
 </body>
+
 </html>
