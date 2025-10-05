@@ -1,11 +1,7 @@
 ﻿ $(document).ready(function() {
     'use strict';
 
-    // 1. بررسی دامنه و هدایت در صورت عدم تطابق
-    if (window.location.hostname != 'fereidunian.github.io') {
-        alert('کاربر گرامی، این محصول حاصل زحمات تیم طراحی و فروشندگی ما می باشد. لطفا این محصول را از طریق سایت رسمین به صورت قانونی خریداری کنید. با سپاس');
-        window.location.replace('https://www.rtl-theme.com/?p=90520&aff=barat');
-    }
+
 
     // 2. انیمیشن نمودار مهارت‌ها (با استفاده از EasyPieChart)
     function initSkills() {
@@ -181,4 +177,5 @@
 
     // 8. اجرای اولیه برای بارگذاری بخش صحیح بر اساس هش URL
     switchSection(window.location.hash);
+
 });
