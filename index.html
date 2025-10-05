@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+<head>
+    <!-- Meta Tags ======================== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>قالب سی وی | کارت پاسخگو / رزومه / قالب شخصی</title>
+    <meta name="description" content="Responsive vCard / Resume / CV Template">
+    <meta name="author" content="Barat Hadian">
+    <meta name="contact" content="barat.hadian@gmail.com">
+    <meta name="keywords" content="cv, responsive, resume, vcard">
+    <meta property="og:title" content="Cvi | Responsive vCard / Resume / CV Template" />
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Responsive vCard / Resume / CV Template" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Favicon ======================== -->
+    <link rel="shortcut icon" href="images/favicons/favicon.ico">
+    <link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png">
+
+    <!-- Stylesheets ======================== -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2016.3.1028/styles/kendo.common.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bars.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-responsive.css">
+
+    <!-- Anti-Piracy & Protection Script (Decoded) -->
+    <script type="text/javascript">
+        // کد اصلی پس از دیکد شدن و خوانا‌سازی
+        (function() {
+            var wcy0 = !!document.all;
+            var axpk = wcy0 && !document.getElementById;
+            var d7kl = wcy0 && document.getElementById;
+            var x13q = !wcy0 && document.getElementById;
+            var pdxw = !!document.layers;
+
+            var HostName = document.location.hostname.toLowerCase();
+
+            // 1. بررسی دامنه و هدایت ترافیک
+            if (HostName.indexOf("fereidunian.github.io") < 0) {
+                document.location = "about:blank";
+                try {
+                    top.location.href = "https://www.rtl-theme.com/?p=90520&aff=barat";
+                } catch (e) {
+                    // اگر در iframe باشد و دسترسی نداشته باشد، کاری انجام نمی‌شود
+                }
+            }
+
+            // 2. توابع کمکی برای غیرفعال کردن رویدادها
+            function girc(evt) {
+                try {
+                    if (axpk) alert(""); // یک ترفند برای مرورگرهای قدیمی
+                } catch (e) {}
+                if (evt && evt.stopPropagation) evt.stopPropagation();
+                return false;
+            }
+
+            function krjd() {
+                if (event.button == 2 || event.button == 3) return girc();
+            }
+
+            function r4xl(e) {
+                return (e.which == 3) ? girc() : true;
+            }
+
+            // 3. غیرفعال کردن راست‌کلیک روی تصاویر (برای مرورگرهای قدیمی)
+            function sryv(doc_layer) {
+                for (var i = 0; i < doc_layer.images.length; i++) {
+                    doc_layer.images[i].onmousedown = r4xl;
+                }
+                for (var i = 0; i < doc_layer.layers.length; i++) {
+                    sryv(doc_layer.layers[i].document);
+                }
+            }
+
+            function zm26() {
+                if (axpk) {
+                    for (var i = 0; i < document.images.length; i++) {
+                        document.images[i].onmousedown = krjd;
+                    }
+                } else if (pdxw) {
+                    sryv(document);
+                }
+            }
+
+            // 4. غیرفعال کردن منوی راست‌کلیک (Context Menu)
+            function xaaq(e) {
+                var targetTag = "";
+                if (d7kl && event && event.srcElement && event.srcElement.tagName) {
+                    targetTag = event.srcElement.tagName;
+                } else if (x13q && e && e.target && e.target.tagName) {
+                    targetTag = e.target.tagName;
+                }
+                if (targetTag == "IMG") {
+                    return girc();
+                }
+            }
+            if (d7kl || x13q) {
+                document.oncontextmenu = xaaq;
+            } else if (axpk || pdxw) {
+                window.onload = zm26;
+            }
+
+            // 5. غیرفعال کردن انتخاب متن (Text Selection)
+            function lrbc(e) {
+                var targetTag = e && e.srcElement && e.srcElement != null ? e.srcElement.tagName : "";
+                if (targetTag != "INPUT" && targetTag != "TEXTAREA" && targetTag != "BUTTON") {
+                    return false;
+                }
+            }
+
+            function s96f() {
+                return false;
+            }
+            if (wcy0) {
+                document.onselectstart = lrbc;
+                document.ondragstart = s96f;
+            }
+            if (document.addEventListener) {
+                document.addEventListener('copy', function(e) {
+                    var targetTag = e.target.tagName;
+                    if (targetTag != "INPUT" && targetTag != "TEXTAREA") {
+                        e.preventDefault();
+                    }
+                }, false);
+                document.addEventListener('dragstart', function(e) {
+                    e.preventDefault();
+                }, false);
+            }
+
+            // 6. غیرفعال کردن کلیدهای میانبر (F12, Ctrl+C, Ctrl+A, ...)
+            function vi71(evt) {
+                if (evt.preventDefault) {
+                    evt.preventDefault();
+                } else {
+                    evt.keyCode = 37; // کلید جهت‌نمای چپ
+                    evt.returnValue = false;
+                }
+            }
+
+            var ney0 = 1; // Shift
+            var gtyk = 2; // Ctrl/Meta
+            var pga2 = 4; // Alt
+            var bgzd = new Array();
+            bgzd.push(new Array(gtyk, 65)); // Ctrl+A
+            bgzd.push(new Array(gtyk, 67)); // Ctrl+C
+            bgzd.push(new Array(gtyk, 80)); // Ctrl+P
+            bgzd.push(new Array(gtyk, 83)); // Ctrl+S
+            bgzd.push(new Array(gtyk, 85)); // Ctrl+U
+            bgzd.push(new Array(ney0 | gtyk, 73)); // Ctrl+Shift+I
+            bgzd.push(new Array(ney0 | gtyk, 74)); // Ctrl+Shift+J
+            bgzd.push(new Array(ney0, 121)); // Shift+F9
+            bgzd.push(new Array(0, 123)); // F12
+
+            function kxmz(evt) {
+                evt = evt || window.event;
+                if (evt) {
+                    var xos6 = evt.keyCode;
+                    if (!xos6 && evt.charCode) {
+                        xos6 = String.fromCharCode(evt.charCode).toUpperCase().charCodeAt(0);
+                    }
+                    for (var i = 0; i < bgzd.length; i++) {
+                        var combo = bgzd[i][0];
+                        var key = bgzd[i][1];
+                        if ((evt.shiftKey == ((combo & ney0) == ney0)) &&
+                            ((evt.ctrlKey || evt.metaKey) == ((combo & gtyk) == gtyk)) &&
+                            (evt.altKey == ((combo & pga2) == pga2)) &&
+                            (xos6 == key || key == 0)) {
+                            vi71(evt);
+                            break;
+                        }
+                    }
+                }
+            }
+
+            if (document.addEventListener) {
+                document.addEventListener("keydown", kxmz, true);
+                document.addEventListener("keypress", kxmz, true);
+            } else if (document.attachEvent) {
+                document.attachEvent("onkeydown", kxmz);
+            }
+        })();
+    </script>
+
+    <meta http-equiv="imagetoolbar" content="no" />
+    <style type="text/css">
+        /* استایل‌ها برای غیرفعال کردن انتخاب متن */
+        input, textarea {
+            -webkit-touch-callout: default;
+            -webkit-user-select: auto;
+            -khtml-user-select: auto;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text
+        }
+        * {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: -moz-none;
+            -ms-user-select: none;
+            user-select: none
+        }
+    </style>
+    <style type="text/css" media="print">
+        /* مخفی کردن محتوا هنگام چاپ */
+        body {
+            display: none
+        }
+    </style>
+    <!--[if gte IE 5]><frame></frame><![endif]-->
+</head>
+<body>
+
+    <!-- اسکریپت‌های کتابخانه‌ای اصلی قالب -->
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/validator.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bars.js"></script>
+    <script src="js/functions.js"></script>
+</body>
+</html>
